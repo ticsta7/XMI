@@ -96,7 +96,7 @@ a{color: #b0b0b0;}
  .pubTopRight .loginAfter .userInfo ul{
      position: absolute;
      width: 110px;
-     padding: 10px 0;
+     padding: 10px 0 ;
      box-shadow: 0 6px 10px rgba(0,0,0,.15);
      display: none;
  }
@@ -159,14 +159,15 @@ a{color: #b0b0b0;}
     position: absolute;
     top:40px;
     right: 0;
-    padding: 40px 0;
+    /* padding: 40px 0 0; */
     box-shadow: 0 4px 5px #aaa;
-    /* display: none; */
+    display: none;
 }
 
 .shopCar .popHover .noItem{
     line-height: 40px ;
     /* display: inline; */
+    padding: 40px 0 ;
 }
 
 .shopCar:hover .popHover{
@@ -182,6 +183,7 @@ a{color: #b0b0b0;}
 
 .shopCar .popHover .list{
     padding: 0 20px;
+    margin-top: 15px;
     max-height: 450px;
     overflow-y: scroll;
 }
@@ -222,7 +224,36 @@ a{color: #b0b0b0;}
     display: inline;
 }
 
-.shopCar .popHover .list .num iconfont{
-    color: #b0b0b0;
-    /* display: none; */
+.shopCar .popHover .list li:last-child{
+    border: none;
+}
+
+.shopCar .popHover .total{
+    background-color: #fafafa;
+    padding: 15px 10px ;
+    text-align: left;
+
+    /* overflow: hidden; */
+}
+
+.shopCar .popHover .total .price{
+    float: left;
+    padding-left: 10px;
+}
+.shopCar .popHover .total .price p{
+    margin-top: -5px;
+}
+
+.shopCar .popHover .total .btn{
+    width: 132px;   
+    height: 40px;
+    background-color: #FF6700;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    float: right;
+    display: block;
+    position: relative;
+    top: 20px;
+    right: 10px;
 }
