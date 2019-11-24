@@ -48,9 +48,9 @@ a{
        = 居中 */
     left: 50%;
     margin-left: -62px;
-
     box-shadow: 0 1px 5px #aaa;
     text-align: center;/* 文字居中 */
+    display: none;
 }
 
 .pubTopLeft a{
@@ -67,16 +67,18 @@ a{
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
     border-bottom: 8px solid #fff;
-
-
 }
 
 .download .appQrcode img{
-    margin: 18px 17px 12px; 
-    /* margin: 0 auto; */
+    margin: 18px 17px 0px; 
     display: block;
 }
 
-.download .appQrcode .triangle-up  {
-    color:#333  !important
+.download .appQrcode span{
+    font-size: 14px;
 }
+
+.download:hover  .appQrcode{
+    display: block;
+}
+
