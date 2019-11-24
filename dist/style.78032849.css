@@ -134,6 +134,39 @@ a{color: #b0b0b0;}
     background-color: #424242;
     float: right;
     text-align: center;
+    position: relative;
 }
+
+.shopCar .tit {
+    display: block;
+    line-height: 40px;
+}
+
+.shopCar .tit span{
+    color: #b0b0b0;
+}
+
+.shopCar:hover a,
+.shopCar:hover .tit span{
+    color: #fe6e20;
+    background-color: #fff;
+}
+
+.shopCar .popHover{
+    width: 316px;
+    position: absolute;
+    height: 40px;
+    top:40px;
+    right: 0;
+    /* padding: 30px 0 70px ; */
+    padding: 50px 0;
+    box-shadow: 0 4px 5px #aaa;
+}
+
+.shopCar .popHover .noItem{
+    line-height: 40px ;
+    /* display: inline; */
+}
+
 
 /*# sourceMappingURL=/style.78032849.css.map */
