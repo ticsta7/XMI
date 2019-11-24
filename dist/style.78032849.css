@@ -1,6 +1,6 @@
 /* 公共 */
 .containter{
-    width: 1226px;
+    width: 1206px;
     margin-left: auto;
     margin-right: auto;
     /* position: absolute; */
@@ -258,5 +258,98 @@ a{color: #b0b0b0;}
     right: 10px;
 }
 
+
+/* 导航nav */
+
+.publicNav {
+    height: 96px;
+    position: relative;
+}
+
+.publicNav .containter .logo{
+    display: block;
+    width: 54px;
+    height: 54px;
+    margin-top: 21px;
+    margin-right: 47px;
+    background: #ff5a00 url(/mi-logo.6351e194.png)center center no-repeat;
+    float: left;
+}
+
+.publicNav .nav .navItem{
+    margin-left: 20px;
+    margin-top: 24px ;
+    float: left;
+    padding: 12px 4px  0px;
+    height: 73px;
+    /* border: 1px solid red; */
+}
+
+.publicNav .nav .navItem .tit{
+    font-size: 16px;
+    color: #333;
+}
+
+.publicNav .nav .navItem:hover .tit{
+    color: #ff5700;
+}
+
+#allthings{
+    visibility: hidden;
+}
+
+.publicNav .nav .navItem .popHover{
+    position: absolute;  /* relative给了 publicNav*/
+    top: 96px;
+    left: 0;
+    height: 230px;
+    width: 100%;
+    background-color:#fff;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18);
+    border-top: 1px solid #e0e0e0;
+    display: none;
+}
+.publicNav .nav .navItem:hover .popHover {
+    display: block;
+}
+
+.publicNav .downUl{
+    overflow: hidden;
+    
+}
+
+.publicNav .downLi{
+    float: left;
+    width: 201px;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.publicNav .downLi .name{
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 5px;
+
+}
+
+.publicNav .downLi .price{
+    line-height: 20px;
+    color: #ff6700;
+    margin-top: 5px;
+}
+
+.publicNav .downLi i {
+    background-color:#e0e0e0;
+    height: 100px;
+    width: 1px;
+    position: absolute;
+    top: 36px;
+    right: 0;
+}
+
+.publicNav .downLi:last-child i {
+    display: none;
+}
 
 /*# sourceMappingURL=/style.78032849.css.map */
