@@ -3,6 +3,8 @@
     width: 1226px;
     margin-left: auto;
     margin-right: auto;
+    /* position: absolute; */
+    /* z-index: 100; */
 }
 
 a{color: #b0b0b0;}
@@ -155,13 +157,11 @@ a{color: #b0b0b0;}
 .shopCar .popHover{
     width: 316px;
     position: absolute;
-    height: 40px;
     top:40px;
     right: 0;
-    padding: 30px 0 70px ;
-    /* padding: 50px 0; */
+    padding: 40px 0;
     box-shadow: 0 4px 5px #aaa;
-    display: none;
+    /* display: none; */
 }
 
 .shopCar .popHover .noItem{
@@ -171,6 +171,60 @@ a{color: #b0b0b0;}
 
 .shopCar:hover .popHover{
     display: block;
+}
+
+
+/* 购物车有东西了 */
+
+.shopCar .popHover .list .pic{
+    float: left;
+}
+
+.shopCar .popHover .list{
+    padding: 0 20px;
+    max-height: 450px;
+    overflow-y: scroll;
+}
+
+.shopCar .popHover .list li{
+    border-bottom:1px solid #e0e0e0 ;
+    padding: 10px 0 ;
+    overflow: hidden;
+}
+
+.shopCar .popHover .list .itemDes{
+    width: 120px;
+    text-align: left;
+    float: left;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis ;
+    color: #424242;
+}
+
+.shopCar .popHover .list .itemDes:hover{
+    color: #fe6e20;
+}
+
+.shopCar .popHover .list .num{
+    float: right;
+}
+
+.shopCar .popHover .list .num span,
+.shopCar .popHover .list .num a{
+    position: relative;
+    top:14px;
+    
+}
+
+.shopCar .popHover .list .num iconfont :hover{
+    color: #323232; 
+    display: inline;
+}
+
+.shopCar .popHover .list .num iconfont{
+    color: #b0b0b0;
+    /* display: none; */
 }
 
 
