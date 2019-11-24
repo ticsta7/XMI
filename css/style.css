@@ -1,6 +1,8 @@
 /* 公共 */
-.container{
+.containter{
     width: 1226px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a{
@@ -13,13 +15,21 @@ a{
     height: 40px;
     background-color: #333;
     line-height: 40px;
+    font-size: 12px;
 }
 
 .pubTopLeft{
+    width: 696.672px;
     float: left;
+    line-height: 38px;
 }
 
 
 .pubTopRight{
     float: right;
+    line-height: 38px;
+}
+
+.containter span{
+    color: #424242;
 }
