@@ -79,32 +79,24 @@ a{color: #b0b0b0;}
 
 /* 导航栏右侧 */
 
-.pubTopRight{
-    /* float: right; */
-    /* white-space: nowrap; */
-}
-
- .pubTopRight .loginBefore
-{
-     float: right;
-     margin-right: 15px;
- }
-
- .pubTopRight .loginAfter{
+ .pubTopRight .loginAfter,
+ .pubTopRight .loginBefore{
     float: right;
+    margin-right: 15px;
 }
+ 
  .pubTopRight .loginAfter .userInfo{
     width: 110px;
     display: inline-block;
-    position: relative;
-    /* box-shadow: 0 1px 5px #aaa; */
+    position: relative;  
  }
 
  .pubTopRight .loginAfter .userInfo ul{
      position: absolute;
      width: 110px;
      padding: 10px 0;
-     
+     box-shadow: 0 6px 10px rgba(0,0,0,.15);
+     display: none;
  }
 
  .pubTopRight .loginAfter .userInfo {
@@ -116,14 +108,32 @@ a{color: #b0b0b0;}
      text-align: center;
  }
 
+ .userInfo ul li:hover{
+     background-color: #f5f5f5;
+     color: #fe6e20;
+     cursor: pointer;
+ }
+
+ .userInfo:hover {
+    background-color: #fff;
+ }
+
+ .pubTopRight .loginAfter .userInfo:hover .userId{
+     color:#fe6e20;
+ }
+
+ .pubTopRight .loginAfter .userInfo:hover ul{
+    display: block;
+}
+
  /* 购物车 */
 
-.shopCar{
-     height: 40px;
-     width: 120px;
-     background-color: #424242;
-     float: right;
-     text-align: center;
- }
+ .shopCar{
+    height: 40px;
+    width: 120px;
+    background-color: #424242;
+    float: right;
+    text-align: center;
+}
 
 /*# sourceMappingURL=/style.78032849.css.map */
