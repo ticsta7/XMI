@@ -3,15 +3,20 @@
     width: 1226px;
     margin-left: auto;
     margin-right: auto;
-    /* line-height: 40px; */
 }
 
-a{
-    color: #b0b0b0;
+a{color: #b0b0b0;}
+
+/* 顶部公共 */
+.containter span{
+    color: #424242;
 }
 
-/* 顶部 */
-
+.containter .fenGe{
+    margin:0 -1.5px;
+    /* padding: 0px 3px; */
+}
+/* 导航栏左侧 */
 .publicTop{
     height: 40px;
     background-color: #333;
@@ -22,16 +27,6 @@ a{
 .pubTopLeft{
     /* width: 696.672px; */
     float: left;
-}
-
-
-.pubTopRight{
-    float: right;
-    /* white-space: nowrap; */
-}
-
-.containter span{
-    color: #424242;
 }
 
 .download{
@@ -82,3 +77,51 @@ a{
     display: block;
 }
 
+/* 导航栏右侧 */
+
+.pubTopRight{
+    /* float: right; */
+    /* white-space: nowrap; */
+}
+
+ .pubTopRight .loginBefore
+{
+     float: right;
+     margin-right: 15px;
+ }
+
+ .pubTopRight .loginAfter{
+    float: right;
+}
+ .pubTopRight .loginAfter .userInfo{
+    width: 110px;
+    display: inline-block;
+    position: relative;
+    /* box-shadow: 0 1px 5px #aaa; */
+ }
+
+ .pubTopRight .loginAfter .userInfo ul{
+     position: absolute;
+     width: 110px;
+     padding: 10px 0;
+     
+ }
+
+ .pubTopRight .loginAfter .userInfo {
+    text-align: center;
+ }
+
+ .pubTopRight .loginAfter .userInfo ul li{
+     line-height: 40px;
+     text-align: center;
+ }
+
+ /* 购物车 */
+
+.shopCar{
+     height: 40px;
+     width: 120px;
+     background-color: #424242;
+     float: right;
+     text-align: center;
+ }
