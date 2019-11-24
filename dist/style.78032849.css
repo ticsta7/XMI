@@ -3,6 +3,7 @@
     width: 1226px;
     margin-left: auto;
     margin-right: auto;
+    /* line-height: 40px; */
 }
 
 a{
@@ -19,19 +20,65 @@ a{
 }
 
 .pubTopLeft{
-    width: 696.672px;
+    /* width: 696.672px; */
     float: left;
-    line-height: 38px;
 }
 
 
 .pubTopRight{
     float: right;
-    line-height: 38px;
+    /* white-space: nowrap; */
 }
 
 .containter span{
     color: #424242;
+}
+
+.download{
+    position: relative;
+}
+
+.download .appQrcode{
+    background-color: #fff;
+    position: absolute;
+    margin-top: 11px;
+    width: 124px;
+    top: 29px;
+    /* left50% + marginleft 负自己的一半
+       = 居中 */
+    left: 50%;
+    margin-left: -62px;
+
+    box-shadow: 0 1px 5px #aaa;
+    text-align: center;/* 文字居中 */
+}
+
+.pubTopLeft a{
+    display: inline-block;
+}
+
+.download .appQrcode .triangle-up{
+    left: 50%;
+    top: -8px;
+    margin-left: -4px;
+    width: 0;
+    position: absolute;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 8px solid #fff;
+
+
+}
+
+.download .appQrcode img{
+    margin: 18px 17px 12px; 
+    /* margin: 0 auto; */
+    display: block;
+}
+
+.download .appQrcode .triangle-up  {
+    color:#333  !important
 }
 
 /*# sourceMappingURL=/style.78032849.css.map */
