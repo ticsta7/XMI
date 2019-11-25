@@ -97,6 +97,8 @@ a{color: #b0b0b0;}
      padding: 10px 0 ;
      box-shadow: 0 6px 10px rgba(0,0,0,.15);
      display: none;
+     z-index: 100;
+     background-color: #fff;
  }
 
  .pubTopRight .loginAfter .userInfo {
@@ -161,7 +163,7 @@ a{color: #b0b0b0;}
     box-shadow: 0 4px 5px #aaa;
     display: none;
     background-color: #fff;
-    z-index: 1;
+    z-index: 100;
 }
 
 .shopCar .popHover .noItem{
@@ -264,6 +266,7 @@ a{color: #b0b0b0;}
 .publicNav {
     height: 96px;
     position: relative;
+    background-color: #fff;
 }
 
 .publicNav .containter .logo{
@@ -301,7 +304,13 @@ a{color: #b0b0b0;}
 
 #allthings{
     visibility: hidden;
+    position: relative;
 }
+
+#allthings .slideNav{
+    visibility: visible;
+}
+
 
 .publicNav .nav .navItem .popHover{
     position: absolute;  /* relative给了 publicNav*/
@@ -313,6 +322,7 @@ a{color: #b0b0b0;}
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18);
     border-top: 1px solid #e0e0e0;
     display: none;
+    z-index: 100;
 }
 .publicNav .nav .navItem:hover .popHover {
     display: block;
@@ -345,7 +355,7 @@ a{color: #b0b0b0;}
 }
 
 .publicNav .downLi i {
-    background-color:#e0e0e0;
+    background-color: #fff;
     height: 100px;
     width: 1px;
     position: absolute;
@@ -356,5 +366,95 @@ a{color: #b0b0b0;}
 .publicNav .downLi:last-child i {
     display: none;
 }
+
+.slideNav{
+    position: absolute;
+    width: 232px;
+    height: 470px;
+    /* border: 1px solid #FF6700; */
+    background: rgba(105,101,101,.6);
+    /* background: rgba(0,0,0,.6); */
+    right: -7px;
+    top: 72px;
+    padding: 20px 0;
+    z-index: 10;
+    /* display: none; */
+}
+
+.slideNav .slideLi{
+    line-height: 42px;
+
+}
+
+.slideNav .slideLi .name{
+    font-size: 16px;
+    padding: 0 24px 0 30px;
+    display: block;
+    /* 这样一整条 都能有 pointer了 */
+}
+
+.slideNav .slideLi .name span{
+    margin-right: 5px;
+    color: #fefefe;
+}
+
+.slideNav .slideLi .name em{
+    float: right;
+    color: #fefefe;
+}
+
+.slideNav .slideLi:hover{
+    background-color: #ff5a00;
+    
+}
+
+.slideNav .slideLi:hover span,
+.slideNav .slideLi:hover em{
+    color:#fff;
+}
+
+/* 全部商品 二级弹出 */
+.slideNav .slideLi .slidePop{
+    height: 471px;
+    width: 976px; 
+    position: absolute;
+    border: 1px solid black;
+    border-left: none;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left:232px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 8px 16px rgba(0,0,0,.18);
+    z-index: 1;
+    display: none;
+}
+
+.slideNav .slideLi .slidePop .popLi{
+    float: left;
+    width: 243px;
+    height: 76px;
+    padding-left: 24px;
+    /* overflow: hidden; */
+    padding-top: 20px;
+    /* margin-bottom: 10px; */
+}
+
+.slideNav .slideLi .slidePop .popLi img{
+    float: left;
+    margin-right: 16px;
+}
+
+.slideNav .slideLi .slidePop .popLi:hover p{
+    color:#FF6700;
+}
+
+.slideNav .slideLi:hover .slidePop{
+    display: block;
+}
+
+/* #allthings:hover .slideNav {
+    display: block;
+} */
 
 /*# sourceMappingURL=/style.78032849.css.map */
