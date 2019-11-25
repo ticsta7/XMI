@@ -184,12 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/style.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"/Users/tic/code/XMI/img/mi-logo.png":[["mi-logo.6351e194.png","img/mi-logo.png"],"img/mi-logo.png"],"/Users/tic/code/XMI/img/mi-home.png":[["mi-home.613e26cb.png","img/mi-home.png"],"img/mi-home.png"],"/Users/tic/code/XMI/img/search_b.png":[["search_b.22b48985.png","img/search_b.png"],"img/search_b.png"],"/Users/tic/code/XMI/img/search_w.png":[["search_w.f924bf23.png","img/search_w.png"],"img/search_w.png"],"_css_loader":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./bundle-url":"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -393,4 +388,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/style.78032849.js.map
+//# sourceMappingURL=/css.967bad95.js.map
