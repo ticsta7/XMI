@@ -1,0 +1,49 @@
+.indBanner{
+    height: 470px;
+    overflow: hidden;
+}
+
+.indBanner ul{
+    width: 30000px;
+    height: 470px;
+}
+
+.indBanner li{
+    width: 1206px;
+    height: 470px;
+    position: relative;
+    float: left;
+    
+}
+
+.indBanner li img{
+    height: 470px;
+    width: 1206px;
+    /* display: none; */
+}
+.indBanner li a{
+    display: block;
+    position: absolute;
+    height: 470px;
+    width: 974px;
+    top: 0;
+    right: 0;
+    /* background-color:rgba(0, 0, 0, 0.3); */
+}
+
+.indBanner .btn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 70px;
+    color: #FFF;
+    font-size: 20px;
+
+}
+
+.indBanner .page{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
