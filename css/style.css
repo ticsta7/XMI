@@ -341,6 +341,15 @@ a{color: #b0b0b0;}
     position: relative;
 }
 
+.publicNav .downLi img{
+    border-right: 1px solid #e0e0e0;
+}
+
+.publicNav .downLi:last-child img{
+    border: none;
+}
+
+
 .publicNav .downLi .name{
     font-size: 12px;
     font-weight: normal;
