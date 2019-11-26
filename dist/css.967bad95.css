@@ -92,4 +92,35 @@
     visibility: hidden;
 }
 
+/* menu-ad */
+
+.menu-ad{
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+.menu-ad .menu-ad{
+    width: 214px;
+    height: 145px;
+    background-color: #5f5750;
+    float: left;
+    padding: 10px;
+}
+
+.menu-ad .pic{
+    display: block;
+    width: 304px;
+    height: 165px;
+    margin-left: 20px;
+    float: left;
+}
+
+.menu-ad .pic .img{
+    display: block;
+    width: 304px;
+    height: 165px;
+}
+
 /*# sourceMappingURL=/css.967bad95.css.map */
