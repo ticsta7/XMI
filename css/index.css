@@ -99,9 +99,10 @@
     margin-top: 20px;
     margin-bottom: 20px;
     height: 400px;
+    background-color: red;
 }
 
-.menu-ad .menu-ad{
+.menu-ad .menu{
     width: 214px;
     height: 145px;
     background-color: #5f5750;
