@@ -275,12 +275,12 @@ a{color: #b0b0b0;}
     height: 54px;
     margin-top: 21px;
     margin-right: 47px;
-    background: #ff5a00 url(/img/mi-logo.png)center center no-repeat;
+    background: #ff5a00 url(../img/mi-logo.png)center center no-repeat;
     float: left;
 }
 
 .publicNav .container .logo:hover{
-    background: #ff5a00 url(/img/mi-home.png)center center no-repeat;
+    background: #ff5a00 url(../img/mi-home.png)center center no-repeat;
 }
 
 
@@ -481,14 +481,14 @@ a{color: #b0b0b0;}
     border: 1px solid #e0e0e0;
     border-left: none;
     float: left;
-    background: #fff url(/img/search_b.png) center center no-repeat;
+    background: #fff url(../img/search_b.png) center center no-repeat;
     background-size: 15px 15px;
 }
 .search .btn:hover{
     background-color: #FF6700;
     border: 1px solid#FF6700;
     border-left: none;
-    background-image: url(/img/search_w.png);
+    background-image: url(../img/search_w.png);
 }
 
 .search ul{

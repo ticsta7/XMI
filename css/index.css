@@ -89,28 +89,28 @@
 }
 
 .indBanner .page span{
-    visibility: hidden;
+    visibility:hidden;
 }
 
-/* menu-ad */
+/* 轮播下 */
 
-.menu-ad{
+.indBannerSub{
     overflow: hidden;
     margin-top: 20px;
     margin-bottom: 20px;
-    height: 400px;
-    background-color: red;
+    /* height: 400px; */
+    
 }
 
-.menu-ad .menu{
-    width: 214px;
-    height: 145px;
+.indBannerSub .menu{
+    width: 232px;
+    height: 165px;
     background-color: #5f5750;
     float: left;
-    padding: 10px;
+    padding: 20px 20px 15px;
 }
 
-.menu-ad .pic{
+.indBannerSub .pic{
     display: block;
     width: 304px;
     height: 165px;
@@ -118,8 +118,85 @@
     float: left;
 }
 
-.menu-ad .pic .img{
+.indBannerSub .pic img{
     display: block;
     width: 304px;
     height: 165px;
 }
+
+.indBannerSub .menu li{
+    width: 64px;
+    height: 61px;
+    padding-top: 5px;
+    float: left;
+    text-align: center;
+    color: #c8c5c3;
+    position: relative;
+}
+
+/* .indBannerSub .menu li:hover{
+    color: #fff;
+} */
+
+.indBannerSub .menu li i{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    margin-left: 18px;
+    padding-top: 7px;
+}
+
+.indBannerSub .menu li .miaosha{
+    background-image: url(/img/sub/miaosha.png) ;
+}
+
+.indBannerSub .menu li .tuangou{
+    background-image: url(/img/sub/tuangou.png) ;
+}
+
+.indBannerSub .menu li .fma{
+    background-image: url(/img/sub/fma.png) ;
+}
+
+.indBannerSub .menu li .mifen{
+    background-image: url(/img/sub/mifen.png) ;
+}
+
+.indBannerSub .menu li .yijiu{
+    background-image: url(/img/sub/yijiu.png) ;
+}
+
+.indBannerSub .menu li .huafei{
+    background-image: url(/img/sub/huafei.png) ;
+}
+
+
+.indBannerSub .menu li span{
+    display: block;
+    font-size:12px;
+    margin-top: 6px;
+} 
+
+.indBannerSub .menu li.bb:before{
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background-color: #665d56;
+    position: absolute;
+    left: 1px;
+    bottom: 0;
+}
+
+ .indBannerSub .menu li.br:after{
+    content: '';
+    display: block;
+    width: 1px;
+    height: 61px;
+    background-color: #665d56;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
