@@ -1,5 +1,5 @@
 /* 公共 */
-.containter{
+.container{
     width: 1206px;
     margin-left: auto;
     margin-right: auto;
@@ -9,7 +9,7 @@ a{color: #b0b0b0;}
 
 /* 顶部公共 */
 
-.containter .fenGe{
+.container .fenGe{
     margin:0 -1.5px;
     color: hsl(0, 0%, 26%);
     /* padding: 0px 3px; */
@@ -163,7 +163,7 @@ a{color: #b0b0b0;}
     box-shadow: 0 4px 5px #aaa;
     display: none;
     background-color: #fff;
-    z-index: 100;
+    z-index: 1000;
 }
 
 .shopCar .popHover .noItem{
@@ -269,7 +269,7 @@ a{color: #b0b0b0;}
     background-color: #fff;
 }
 
-.publicNav .containter .logo{
+.publicNav .container .logo{
     display: block;
     width: 54px;
     height: 54px;
@@ -279,7 +279,7 @@ a{color: #b0b0b0;}
     float: left;
 }
 
-.publicNav .containter .logo:hover{
+.publicNav .container .logo:hover{
     background: #ff5a00 url(/img/mi-home.png)center center no-repeat;
 }
 
@@ -322,7 +322,7 @@ a{color: #b0b0b0;}
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.18);
     border-top: 1px solid #e0e0e0;
     display: none;
-    z-index: 100;
+    z-index: 200;
 }
 .publicNav .nav .navItem:hover .popHover {
     display: block;
@@ -424,13 +424,12 @@ a{color: #b0b0b0;}
     position: absolute;
     border: 1px solid black;
     border-left: none;
-    display: none;
     position: absolute;
     top: 0px;
     left:232px;
     border: 1px solid #e0e0e0;
     box-shadow: 0 8px 16px rgba(0,0,0,.18);
-    z-index: 1;
+    z-index: 1000;
     display: none;
 }
 
