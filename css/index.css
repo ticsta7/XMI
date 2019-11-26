@@ -207,6 +207,10 @@
     display: block;
 }
 
+.idx-container .idx-adv{
+    margin-top: 40px;
+}
+
 .idx-container{
     background-color: #f5f5f5;
     margin-top: 40px;
