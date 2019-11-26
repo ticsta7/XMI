@@ -200,6 +200,117 @@
     top: 2px;
 }
 
+/* 长条广告 */
 
+.idx-adv img{
+    width: 100%;
+    display: block;
+}
+
+.idx-container{
+    background-color: #f5f5f5;
+    margin-top: 40px;
+}
+
+.idx-title{
+    overflow: hidden;
+    line-height: 60px;
+    margin-top: 20px;
+}
+.idx-title i{
+    float: right; 
+}
+
+.idx-title .tit{
+    font-size: 22px;
+    color:#666;
+    line-height: 60px;
+}
+
+.idx-title .see-all{
+    float: right;
+    font-size: 16px;
+    color:#666;
+    position: relative;
+    /* top: 25px;      */
+}
+
+.idx-title .see-all:hover{
+    color: #FF6700;
+}
+
+.idx-container .col-5{
+    width: 226px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    float: left;
+}
+
+.idx-container .AdvBox .col-5{
+    margin-left: 0;
+}
+
+.idx-container .AdvBox .single img{
+    width: 243px;
+    height: 609px;
+    display: block;
+    margin-left: -14px;
+}
+
+.idx-container .idx-box{
+    height: 616px;
+    clear: both;
+}
+
+.idx-box .pic img{
+    /* width: 160px;
+    height: 160px; */
+    display: block;
+    margin:auto auto;
+}
+
+.idx-box .name,
+.idx-box .desc,
+.idx-box .price{
+    width: 200px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: normal;
+    font-size: 13px;
+}
+.idx-box .name{
+    margin: 0 auto 10px;
+}
+.idx-box .name a{
+    color: #333;
+}
+
+.idx-box .desc{
+    color:#b0b0b0;
+    margin: 0 auto ;
+}
+
+.idx-box .price{
+    margin-top: 9px;
+    margin-left: 10px;
+}
+
+.idx-box .price span{
+    color: #FF6700;
+}
+
+.idx-box .price i{
+    font-style: normal;
+    text-decoration: line-through;
+    margin-left: 5px;
+    color: #b0b0b0;
+}
+
+.idx-box .col-5:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
 
 /*# sourceMappingURL=/css.967bad95.css.map */
